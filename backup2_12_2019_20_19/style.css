@@ -1,0 +1,105 @@
+body {
+  background: url("utils/background.jpg") repeat center center fixed;
+  background-size: cover;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.score {
+  font-size: 35px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.flag {
+  padding: 12px;
+  border-top: 3px white solid;
+  background-color: rgba(0, 0, 0, 0.247);
+  backdrop-filter: blur(20px);
+  border-radius: 0 0 10px 10px;
+  box-shadow: 10px 10px 30px 20px rgba(0, 0, 0, 0.5);
+  position: fixed;
+}
+
+.rules {
+  top: 100px;
+  right: 10px;
+  width: 100px;
+}
+
+.leaderboard {
+  top: 100px;
+  left: 10px;
+}
+
+.leaderboard h2 {
+  margin-top: 0;
+}
+
+td {
+  max-width: 6rem;
+  overflow: hidden;
+}
+
+main {
+  text-align: center;
+  color: white;
+}
+
+.computer_hand,
+.player_hand {
+  font-size: 3rem;
+  font-family: "Calistoga", cursive;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.control {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  margin: 5rem;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  background-color: tomato;
+  padding: 2rem;
+  width: 20rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: teal;
+}
+
+.message {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+/* 
+.card {
+  color: black;
+  display: flex;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 15rem;
+  text-align: center;
+  font-size: 5rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+img {
+  height: 5rem;
+} */
